@@ -3,9 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
-import { UserListComponent } from './components/user/user-list/user-list.component';
-import { UserDetailsComponent } from './components/user/user-details/user-details.component';
-import { EditUserComponent } from './components/user/edit-user/edit-user.component';
 import { FormsModule } from '@angular/forms';
 import { CustomerListComponent } from './components/customer/customer-list/customer-list.component';
 import { CustomerDetailsComponent } from './components/customer/customer-details/customer-details.component';
@@ -20,9 +17,6 @@ import { ProductListComponent } from './components/product/product-list/product-
 @NgModule({
   declarations: [
     AppComponent,
-    UserListComponent,
-    UserDetailsComponent,
-    EditUserComponent,
     CustomerListComponent,
     CustomerDetailsComponent,
     EditCustomerComponent,

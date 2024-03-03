@@ -8,6 +8,7 @@ import { CustomerService } from '../../../services/customer/customer.service';
   templateUrl: './customer-details.component.html',
   styleUrl: './customer-details.component.css'
 })
+
 export class CustomerDetailsComponent {
   customer: Customer={
     id: '',
@@ -19,7 +20,6 @@ export class CustomerDetailsComponent {
     email: '',
     phone: '',
   }
-  
   
   constructor(
     private _route: ActivatedRoute,

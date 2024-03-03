@@ -1,9 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
-import { EditUserComponent } from './components/user/edit-user/edit-user.component';
-import { UserListComponent } from './components/user/user-list/user-list.component';
-import { UserDetailsComponent } from './components/user/user-details/user-details.component';
 import { CustomerDetailsComponent } from './components/customer/customer-details/customer-details.component';
 import { CustomerListComponent } from './components/customer/customer-list/customer-list.component';
 import { EditCustomerComponent } from './components/customer/edit-customer/edit-customer.component';
@@ -20,10 +17,6 @@ const routes: Routes = [
     path: '',
     component: HomeComponent
   },
-  { path: 'home', component: HomeComponent },
-  { path: 'users', component: UserListComponent },
-  { path: 'users/:id', component: UserDetailsComponent },
-  { path: 'users/:id/edit', component: EditUserComponent },
 
   { path: 'customers', component: CustomerListComponent },
   { path: 'customers/:id', component: CustomerDetailsComponent },

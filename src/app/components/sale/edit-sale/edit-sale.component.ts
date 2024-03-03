@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { Sale } from '../../../interfaces/interfaces';
-import { HttpClient } from '@angular/common/http';
 import { ActivatedRoute, Router } from '@angular/router';
 import { SaleService } from '../../../services/sale/sale.service';
 
@@ -20,6 +19,7 @@ export class EditSaleComponent {
     shipping_address: '',
     total: ''
   };
+  
   constructor(
     private _route: ActivatedRoute,
     private _router: Router,

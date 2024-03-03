@@ -10,12 +10,12 @@ import { SaleService } from '../../../services/sale/sale.service';
 })
 export class SaleListComponent {
   sales: Sale[] = [];
-  
+
   constructor(
     private _userService: SaleService,
     private _router: Router
-    
-    ) { }
+
+  ) { }
 
   ngOnInit(): void {
     this.getSales()
@@ -28,14 +28,14 @@ export class SaleListComponent {
     })
   }
 
-    deleteSaleById(id:string){
-      this._userService.deleteSaleByIdAsync(id).subscribe((res:Sale)=>{
-        console.log(res)
-        this.getSales()
-      })
-    }
+  deleteSaleById(id: string) {
+    this._userService.deleteSaleByIdAsync(id).subscribe((res: Sale) => {
+      console.log(res)
+      this.getSales()
+    })
+  }
 
-    editSaleById(userId: string): void {
-      this._router.navigate(['/sales', userId, 'edit']);
-    }
+  editSaleById(userId: string): void {
+    this._router.navigate(['/sales', userId, 'edit']);
+  }
 }

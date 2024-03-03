@@ -9,7 +9,7 @@ import { SaleService } from '../../../services/sale/sale.service';
   styleUrl: './sale-details.component.css'
 })
 export class SaleDetailsComponent {
-  sale: Sale={
+  sale: Sale = {
     id: '',
     title: '',
     customer_id: '',
@@ -19,17 +19,17 @@ export class SaleDetailsComponent {
     company: '',
     shipping_address: ''
   }
-  
+
   constructor(
     private _route: ActivatedRoute,
     private _saleService: SaleService,
-  ){}
-    ngOnInit(): void {
-      const saleIdFromRoute = String(this._route.snapshot.paramMap.get('id'))
-      
-      this._saleService.getSaleByIdAsync(saleIdFromRoute).subscribe((res:Sale)=>{
-        this.sale = res
-        console.log(res)
-      })
-    }
+  ) { }
+  ngOnInit(): void {
+    const saleIdFromRoute = String(this._route.snapshot.paramMap.get('id'))
+
+    this._saleService.getSaleByIdAsync(saleIdFromRoute).subscribe((res: Sale) => {
+      this.sale = res
+      console.log(res)
+    })
+  }
 }
