@@ -1,0 +1,6 @@
+<p>edit-customer works!</p>
+<form (ngSubmit)="updateCustomer()">
+  <label>Customer Title:</label>
+  <input type="text" [(ngModel)]="customer.first_name" name="title" required>
+  <button type="submit">Update</button>
+</form>

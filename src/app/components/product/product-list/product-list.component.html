@@ -1,0 +1,10 @@
+<p>product-list works!</p>
+<div>
+  <ul *ngFor="let product of products">
+      <li >
+          <a [routerLink]="['/products', product.id]"> {{ product.title }}</a>
+          <span (click)=deleteProductById(product.id)>  X</span>
+          <button (click)="editProductById(product.id)">Edit</button> 
+      </li>
+  </ul>
+</div>

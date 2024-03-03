@@ -1,0 +1,7 @@
+<p>edit-sale works!</p>
+
+<form (ngSubmit)="updateSale()">
+  <label>Sale Title:</label>
+  <input type="text" [(ngModel)]="sale.title" name="saleName" required>
+  <button type="submit">Update</button>
+</form>

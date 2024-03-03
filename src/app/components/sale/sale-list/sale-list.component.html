@@ -1,0 +1,10 @@
+<p>sale-list works!</p>
+<div>
+  <ul *ngFor="let sale of sales">
+      <li >
+          <a [routerLink]="['/sales', sale.id]"> {{ sale.products }}</a>
+          <span (click)=deleteSaleById(sale.id)>  X</span>
+          <button (click)="editSaleById(sale.id)">Edit</button> 
+      </li>
+  </ul>
+</div>

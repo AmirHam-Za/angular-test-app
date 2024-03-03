@@ -1,0 +1,10 @@
+<p>customer-list works!</p>
+<div>
+  <ul *ngFor="let customer of customers">
+      <li >
+          <a [routerLink]="['/customers', customer.id]"> {{ customer.first_name }}</a>
+          <span (click)=deleteCustomerById(customer.id)>  X</span>
+          <button (click)="editCustomerById(customer.id)">Edit</button> 
+      </li>
+  </ul>
+</div>

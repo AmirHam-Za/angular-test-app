@@ -1,0 +1,187 @@
+{
+  "customers": [
+    {
+      "id": "65e4384895de2e27953f5136",
+      "first_name": "Figueroa!!",
+      "last_name": "Miranda ",
+      "age": 38,
+      "image": "http://placehold.it/32x32",
+      "gender": "male",
+      "company": "DOGNOSIS",
+      "email": "mirandacleveland@dognosis.com",
+      "phone": "+1 (881) 482-3247",
+      "address": "868 Prince Street, Elrama, Marshall Islands, 6181"
+    },
+    {
+      "id": "65e438482a87aaa4c24ad80b",
+      "first_name": "Edwards ",
+      "last_name": "Kemp ",
+      "age": 22,
+      "image": "http://placehold.it/32x32",
+      "gender": "male",
+      "company": "BUGSALL",
+      "email": "kempcleveland@bugsall.com",
+      "phone": "+1 (865) 547-2619",
+      "address": "947 Wythe Avenue, National, Oklahoma, 2434"
+    },
+    {
+      "id": "65e43848fa98da62416ab3d9",
+      "first_name": "Cassandra ",
+      "last_name": "Holloway ",
+      "age": 34,
+      "image": "http://placehold.it/32x32",
+      "gender": "male",
+      "company": "DATAGEN",
+      "email": "hollowaycleveland@datagen.com",
+      "phone": "+1 (980) 430-2639",
+      "address": "989 Preston Court, Eagletown, Idaho, 2789"
+    },
+    {
+      "id": "65e43848b533c29c39ebfd54",
+      "first_name": "Kelly ",
+      "last_name": "Eugenia ",
+      "age": 23,
+      "image": "http://placehold.it/32x32",
+      "gender": "female",
+      "company": "COFINE",
+      "email": "eugeniacleveland@cofine.com",
+      "phone": "+1 (935) 538-2012",
+      "address": "745 Withers Street, Chumuckla, Virginia, 6267"
+    },
+    {
+      "id": "65e43848cb11477b08f43c87",
+      "first_name": "Bonnie ",
+      "last_name": "Copeland ",
+      "age": 23,
+      "image": "http://placehold.it/32x32",
+      "gender": "male",
+      "company": "ELEMANTRA",
+      "email": "copelandcleveland@elemantra.com",
+      "phone": "+1 (989) 528-2170",
+      "address": "375 Halsey Street, Swartzville, Vermont, 9553"
+    }
+  ],
+  "products": [
+    {
+      "id": "65e466eac6cedf475bcfc473",
+      "title": "Alison Turner!!",
+      "price": "$3,147.09",
+      "picture": "http://placehold.it/32x32",
+      "brand": "Roseann Britt"
+    },
+    {
+      "id": "65e466eaa87b1ac3cd12851a",
+      "title": "Davidson Sheppard",
+      "price": "$3,768.11",
+      "picture": "http://placehold.it/32x32",
+      "brand": "Marisol William"
+    },
+    {
+      "id": "65e466ea64f033927c721bfe",
+      "title": "Krista Calderon",
+      "price": "$3,769.28",
+      "picture": "http://placehold.it/32x32",
+      "brand": "Briana Poole"
+    },
+    {
+      "id": "65e466ea07c613b347d7465c",
+      "title": "Helene Reeves",
+      "price": "$3,195.79",
+      "picture": "http://placehold.it/32x32",
+      "brand": "Clemons Diaz"
+    },
+    {
+      "id": "65e466ea51ddee75bf8c796c",
+      "title": "Turner Cochran",
+      "price": "$2,881.39",
+      "picture": "http://placehold.it/32x32",
+      "brand": "Loretta Hahn"
+    },
+    {
+      "id": "65e466ea8897beb202ae5096",
+      "title": "Mccarty Forbes",
+      "price": "$1,105.69",
+      "picture": "http://placehold.it/32x32",
+      "brand": "Antoinette Meadows"
+    },
+    {
+      "id": "65e466ea39c86dc377976096",
+      "title": "Audra Kim",
+      "price": "$2,297.66",
+      "picture": "http://placehold.it/32x32",
+      "brand": "Beasley Vang"
+    }
+  ],
+  "sales": [
+    {
+      "id": "65e4710d29de12cffc70c726",
+      "customer_id": "65e4710d520fa7b0fe229ae4",
+      "title": "Karina",
+      "products": "Noemi Jordan",
+      "total": "$3,855.16",
+      "payment_method": "Beatriz Reed",
+      "company": "TALAE",
+      "shipping_address": "291 Sunnyside Court, Cuylerville, Wisconsin, 1485"
+    },
+    {
+      "id": "65e4710d0c3912e43c739eb2",
+      "customer_id": "65e4710d26a101ca74985d32",
+      "title": "Meadows",
+      "products": "Robinson Walters",
+      "total": "$1,659.33",
+      "payment_method": "Ila Hancock",
+      "company": "JETSILK",
+      "shipping_address": "312 Clymer Street, Fairfield, Palau, 2298"
+    },
+    {
+      "id": "65e4710d8aed7f710e427b96",
+      "customer_id": "65e4710d6db427e45e0f76b6",
+      "title": "Singleton",
+      "products": "Paula Santana",
+      "total": "$2,518.37",
+      "payment_method": "Bullock Solomon",
+      "company": "ZIDANT",
+      "shipping_address": "965 Mill Lane, Magnolia, Iowa, 2044"
+    },
+    {
+      "id": "65e4710d4351f1c375644808",
+      "customer_id": "65e4710d5cb808b92d3fa6d1",
+      "title": "Arline",
+      "products": "Abigail Stevens",
+      "total": "$2,079.51",
+      "payment_method": "Odessa Fuller",
+      "company": "VENDBLEND",
+      "shipping_address": "122 Keen Court, Tilden, Pennsylvania, 2111"
+    },
+    {
+      "id": "65e4710d95ff39b9b530dfc9",
+      "customer_id": "65e4710dd34103e231cec29c",
+      "title": "Emerson",
+      "products": "Rachelle Bell",
+      "total": "$2,704.51",
+      "payment_method": "Dora Mason",
+      "company": "KEGULAR",
+      "shipping_address": "159 Noble Street, Osmond, New Hampshire, 2185"
+    },
+    {
+      "id": "65e4710db287a8305ee69247",
+      "customer_id": "65e4710dad1fb33b0fa25ec1",
+      "title": "Ida",
+      "products": "Tucker Stone",
+      "total": "$2,202.45",
+      "payment_method": "Ellen Webster",
+      "company": "UPDAT",
+      "shipping_address": "780 Furman Avenue, Crisman, North Dakota, 8993"
+    },
+    {
+      "id": "65e4710d69544daaba00a893",
+      "customer_id": "65e4710dec6b70faa7cabb6e",
+      "title": "Calderon",
+      "products": "Latisha Lindsey",
+      "total": "$3,321.24",
+      "payment_method": "Angelica Hahn",
+      "company": "MAXEMIA",
+      "shipping_address": "271 Abbey Court, Santel, Guam, 8512"
+    }
+  ]
+}
