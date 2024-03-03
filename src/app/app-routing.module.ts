@@ -15,7 +15,6 @@ import { EditSaleComponent } from './components/sale/edit-sale/edit-sale.compone
 import { ProductListComponent } from './components/product/product-list/product-list.component';
 
 const routes: Routes = [
-
   {
     pathMatch: 'full',
     path: '',
@@ -37,8 +36,6 @@ const routes: Routes = [
   { path: 'sales', component: SaleListComponent },
   { path: 'sales/:id', component: SaleDetailsComponent },
   { path: 'sales/:id/edit', component: EditSaleComponent },
-
-
 ];
 
 @NgModule({
