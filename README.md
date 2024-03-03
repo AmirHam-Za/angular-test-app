@@ -1,27 +1,41 @@
-# TestApp
+# angular-test-app
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.0.
+# json-server, concurrently and implementation with Angular 17.
 
-## Development server
+## 🚀 Getting Started
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+To use this project, follow these steps:
 
-## Code scaffolding
+### Prerequisites
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Make sure you have the following installed on your system:
 
-## Build
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/) (Node Package Manager)
+- [Angular CLI](https://angular.io/cli) (Command Line Interface)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Installation
 
-## Running unit tests
+1. *Clone the repository:*
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+   git clone https://github.com/AmirHam-Za/angular-test-app.git
+   
+2. *Navigate to the project directory:*
 
-## Running end-to-end tests
+   `cd angular-test-app`
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+3. *Install dependencies:*
 
-## Further help
+   `npm install`
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+4. *Running the Application:*
+
+   To run the application locally, use the following command:
+
+   `npm run start`
+
+5. *Running in the Browser:*
+
+   This will start a development server. Open your web browser and navigate to
+   http://localhost:4200/ to view the application.
+   
