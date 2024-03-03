@@ -2,7 +2,7 @@
   "customers": [
     {
       "id": "65e4384895de2e27953f5136",
-      "first_name": "Figueroa!!",
+      "first_name": "Figueroa",
       "last_name": "Miranda ",
       "age": 38,
       "image": "http://placehold.it/32x32",
@@ -14,7 +14,7 @@
     },
     {
       "id": "65e438482a87aaa4c24ad80b",
-      "first_name": "Edwards ",
+      "first_name": "Edwards!",
       "last_name": "Kemp ",
       "age": 22,
       "image": "http://placehold.it/32x32",
@@ -26,7 +26,7 @@
     },
     {
       "id": "65e43848fa98da62416ab3d9",
-      "first_name": "Cassandra ",
+      "first_name": "Cassandra!",
       "last_name": "Holloway ",
       "age": 34,
       "image": "http://placehold.it/32x32",
@@ -38,7 +38,7 @@
     },
     {
       "id": "65e43848b533c29c39ebfd54",
-      "first_name": "Kelly ",
+      "first_name": "Kelly!",
       "last_name": "Eugenia ",
       "age": 23,
       "image": "http://placehold.it/32x32",
@@ -64,14 +64,14 @@
   "products": [
     {
       "id": "65e466eac6cedf475bcfc473",
-      "title": "Alison Turner!!",
+      "title": "Alison Turner!!!",
       "price": "$3,147.09",
       "picture": "http://placehold.it/32x32",
       "brand": "Roseann Britt"
     },
     {
       "id": "65e466eaa87b1ac3cd12851a",
-      "title": "Davidson Sheppard",
+      "title": "Davidson Sheppard!!",
       "price": "$3,768.11",
       "picture": "http://placehold.it/32x32",
       "brand": "Marisol William"
@@ -85,7 +85,7 @@
     },
     {
       "id": "65e466ea07c613b347d7465c",
-      "title": "Helene Reeves",
+      "title": "Helene Reeves!!",
       "price": "$3,195.79",
       "picture": "http://placehold.it/32x32",
       "brand": "Clemons Diaz"
@@ -99,14 +99,14 @@
     },
     {
       "id": "65e466ea8897beb202ae5096",
-      "title": "Mccarty Forbes",
+      "title": "Mccarty Forbes!!",
       "price": "$1,105.69",
       "picture": "http://placehold.it/32x32",
       "brand": "Antoinette Meadows"
     },
     {
       "id": "65e466ea39c86dc377976096",
-      "title": "Audra Kim",
+      "title": "Audra Kim!!",
       "price": "$2,297.66",
       "picture": "http://placehold.it/32x32",
       "brand": "Beasley Vang"
