@@ -1,4 +1,4 @@
-# aAngularTestApp
+# AngularTestApp
 
 # json-server, concurrently and implementation with Angular 17.
 
